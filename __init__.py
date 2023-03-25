@@ -47,7 +47,7 @@ class LIGHTCONTROL_OT_show_popup(bpy.types.Operator):
         return context.mode == 'OBJECT'
 
     def execute(self, context):
-        return context.window_manager.invoke_popup(self, width=600)
+        return context.window_manager.invoke_popup(self, width=150)
 
     def draw(self, context):
         layout = self.layout
@@ -56,6 +56,9 @@ class LIGHTCONTROL_OT_show_popup(bpy.types.Operator):
 
         scene = context.scene
         layout.prop(scene, "light_control_mode", expand=True)
+
+        # Add a Quad View toggle button
+        layout.operator("screen.region_quadview", text="Toggle Quad View")
 
         lights = [obj for obj in scene.objects if obj.type == 'LIGHT']
 
