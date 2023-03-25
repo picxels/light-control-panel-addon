@@ -16,9 +16,9 @@ The Light Control Panel is an intuitive and easy-to-use addon for Blender that a
 
 ## Installation
 
-1. Download the `light_control_panel.py` script from the GitHub repository.
+1. Download the `light_control_panel.zip` script from the GitHub repository.
 2. Open Blender and go to `Edit > Preferences > Add-ons`.
-3. Click the `Install` button and navigate to the downloaded script.
+3. Click the `Install` button and navigate to the downloaded zip file of the script.
 4. Enable the addon by checking the checkbox.
 
 ## Usage
