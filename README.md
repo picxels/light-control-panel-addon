@@ -7,7 +7,7 @@ The Light Control Panel is an intuitive and easy-to-use addon for Blender that a
 - Easily access and adjust light properties in one convenient panel
 - Light mode: Quickly modify basic properties such as light type, energy, color, and size
 - Heavy mode: Access advanced properties, including shadows, specular factor, and settings for spot and area lights
-- Toggle between Light and Heavy modes with a simple checkbox
+- Toggle between Light and Heavy modes with a simple button.
 - Toggle quad view button
 - Compatible with Blender 3.4.1
 
