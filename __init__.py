@@ -33,7 +33,7 @@ bl_info = {
     "location": "View3D > Right-Click(ObjectContextMenu)",
     "description": "Aggregates all lights in the scene and opens a menu with controls",
     "warning": "",
-    "doc_url": "",
+    "doc_url": "https://github.com/picxels/light-control-panel-addon",
     "category": "3D View",
 }
 
